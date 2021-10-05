@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+{
+   			 box-sizing: border-box; 
+		  }
+		  body {
+		    display: flex;
+		    min-height: 100vh;
+		    flex-direction: row;
+		    margin: 0;
+		  }
+		  .col-1 {
+		    background-color: #7e36c2;
+		    flex: 1;
+		  }
+		  .col-2 {
+		    display: flex;
+		    flex-direction: column;
+		    flex: 5;
+		  }
+		  .content {
+		    display: flex;
+		    flex-direction: row;
+		  }
+		  .content > article {
+		    flex: 3;
+		    min-height: 60vh;
+		    background-color: #c48ff7
+		  }
+		  .content > aside {
+		    background-color: #9f44f5;
+		    flex: 1;
+		  }
+		  header, footer {
+		    background-color: #4c2175;
+		    height: 20vh;
+		  }
+		  header, footer, article, nav, aside {
+		    padding: 1em;
+		    .menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.menu li a:hover{
+    background-color: rgba(100,100,100,0.8);
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px; }
+.poemas {
+    font-style: italic
+}
+		  }
